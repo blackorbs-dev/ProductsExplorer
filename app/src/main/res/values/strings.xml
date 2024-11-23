@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Product Explorer (blackorbs)</string>
+    <string name="product_image">Product Image</string>
+    <string name="description">Description</string>
+    <string name="browse_text">Browse all available products from your favorite categories</string>
+    <string name="error_try_again">Some error occurred, check your internet connection and try again</string>
+    <string name="retry">RETRY</string>
+    <string name="rating_count">(%1$d ratings)</string>
+    <string name="details">Details</string>
+</resources>

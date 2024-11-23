@@ -1,0 +1,50 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.ProductExplorer" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryVariant">@color/white</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="android:windowBackground">@color/light_back</item>
+        <item name="snackbarStyle">@style/SnackbarStyle</item>
+        <item name="snackbarButtonStyle">@style/SnackbarButton</item>
+        <item name="snackbarTextViewStyle">@style/SnackbarTextView</item>
+        <item name="android:statusBarColor">?attr/colorPrimary</item>
+    </style>
+
+    <style name="Theme.ProductExplorer" parent="Base.Theme.ProductExplorer">
+        <item name="android:fontFamily">@font/lato</item>
+    </style>
+
+    <style name="Theme.ProductExplorer.SplashScreen" parent="Theme.SplashScreen">
+        <item name="android:windowBackground">@drawable/launch_background</item>
+        <item name="android:windowSplashScreenBackground" tools:targetApi="s">@color/black</item>
+        <item name="android:windowSplashScreenAnimatedIcon" tools:targetApi="s">@mipmap/ic_launcher_round</item>
+        <item name="postSplashScreenTheme">@style/Theme.ProductExplorer</item>
+    </style>
+
+    <style name="CardViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="cardCornerRadius">@dimen/standard_20</item>
+        <item name="android:layout_margin">@dimen/standard_10</item>
+        <item name="cardBackgroundColor">@color/white</item>
+    </style>
+
+    <style name="SnackbarStyle" parent="ThemeOverlay.Material3.Snackbar">
+        <item name="backgroundTint">@color/black</item>
+        <item name="android:layout_margin">@dimen/standard_5</item>
+        <item name="android:paddingStart">@dimen/standard_5</item>
+        <item name="android:paddingEnd">@dimen/standard_5</item>
+    </style>
+
+    <style name="SnackbarButton" parent="ThemeOverlay.Material3.Button.ElevatedButton">
+        <item name="backgroundTint">@color/orange_light</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="SnackbarTextView" parent="Widget.Material3.Snackbar.TextView">
+        <item name="android:textColor">@color/white_trans</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+</resources>
