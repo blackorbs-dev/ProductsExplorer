@@ -39,3 +39,6 @@ Follow the steps below to set up and run this Android project:
 * Connect an Android device via USB with Developer Options enabled, or set up an Android Virtual Device (AVD) in Android Studio.
 * Click the **Run button** (green triangle) in the toolbar, or press **Shift + F10 or Control + R (macOS)**.
 * Select your connected device or emulator.
+
+### Trade-offs?
+* Needed more time to write the UI Tests
